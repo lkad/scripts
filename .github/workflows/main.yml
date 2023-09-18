@@ -39,7 +39,7 @@ jobs:
           - name: debian-stretch
             image_name: os-packages-debian9
             dockerfile: build/Dockerfile.os.debian9
-      steps:
+    steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
