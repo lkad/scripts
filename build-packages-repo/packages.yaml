@@ -11,6 +11,7 @@ common:
   - unzip
   - bash-completion
   - openssl
+  - docker-compose
 
 yum:
   - nfs-utils
